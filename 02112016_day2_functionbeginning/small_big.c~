@@ -1,0 +1,25 @@
+#include <stdio.h>
+float checksmall (float a, float b, float c)
+{
+	if( a>b && b>c )
+	return a;
+	if( b>a && a>c )
+	return b;
+	else
+	return c;
+}
+
+
+float checkbig (float a, float b, float c)
+{
+	if( a<b && b<c )
+	return a;
+	if( b<a && a<c )
+	return b;
+	else
+	return c;
+}
+ 
+
+
+

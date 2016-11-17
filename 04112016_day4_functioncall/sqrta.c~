@@ -1,0 +1,7 @@
+#include "calch.h"
+int sqrta(int a)
+{	
+	int c;
+	c = sqrt(a);
+	return c;
+}

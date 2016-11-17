@@ -1,0 +1,15 @@
+#include "areah.h"
+
+int main()
+{
+	double a;
+	printf("\n\nEnter the radius of circle: \n");
+	scanf("%lf", &a);
+	areacir(a,b);
+	printf("\narea of circle is: %lf\n", areacir(a,b));
+	circumcir(a,b);
+	printf("\ncircumference of circle is: %lf\n\n", areacir(a,b));
+	return 0;
+}
+	
+

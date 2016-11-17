@@ -1,0 +1,18 @@
+#include "calch.h"
+
+int main()
+{
+	double a, b;
+	print("Input the value for a and press enter: ")
+	scanf("%d", &a);
+	print("Input the value for b and press enter: ")
+	Scanf("%d", &b);
+	printf("a+b = %d", add(a, b));
+	printf("a-b = %d", sub(a, b));
+	printf("a*b = %d", mul(a, b));
+	printf("a/b = %d", div(a, b));
+	printf("a%b = %d", mod(a, b));
+	printf("square root of a = %d", sqrta(a));
+	printf("square root of b = %d", sqrtb(b));
+	return 0;
+}
